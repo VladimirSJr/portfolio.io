@@ -730,6 +730,10 @@ footer span a:hover{
 @media (max-width:486px){
     .navbar-contact{
         flex-direction: column;
+    }
+    .about .about-content .column-left img{
+        width: 200px;
+        height: 200px;
     }   
 }
 
