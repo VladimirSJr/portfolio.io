@@ -11,20 +11,20 @@ html{
 
 .max-width{
     width: 100%;
-    padding: 0 80px;
+    padding: 0 5rem;
     margin: auto;
 }
 .navbar{
     position: fixed;
     width: 100%;
-    padding: 30px 0;
+    padding: 1.8rem 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
 }
 .navbar.sticky{
     background: #524937;
-    padding: 15px 0;
+    padding: 0.9rem 0;
 }
 .navbar.sticky #menu li a{
     color: black;
@@ -36,7 +36,7 @@ html{
 }
 .navbar .logo a{
     color: black;
-    font-size: 35px;
+    font-size: 2.1rem;
     font-weight: 500;
 }
 .navbar .logo a span{
@@ -51,9 +51,9 @@ html{
 }
 .navbar #menu li a{
     color: black;
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: 500;
-    margin-left: 25px;
+    margin-left: 1.5rem;
     transition: color 0.3s ease;
 }
 .navbar #menu li a:hover{
@@ -66,23 +66,23 @@ html{
 .home{
     display: flex;
     height: 100vh;
-    min-height: 500px;
+    min-height: 31.2rem;
     font-family: 'Ubuntu', sans-serif;
 }
 .home .max-width{
-    margin: auto 0 auto 40px;
+    margin: auto 0 auto 2.5rem;
 }
 .home .home-content .text-1{
-    font-size: 27px;
+    font-size: 1.6rem;
 }
 .home .home-content .text-2{
-    font-size: 75px;
+    font-size: 4.6rem;
     font-weight: 500;
-    margin-left: -3px;
+    margin-left: -1.1rem;
 }
 .home .home-content .text-3{
-    font-size: 40px;
-    margin: 5px 0;
+    font-size: 2.5rem;
+    margin: 0.3rem 0;
 }
 .home .home-content .text-3 span{
     color: #B0E508;
@@ -90,14 +90,14 @@ html{
 }
 .navbar-contact{
     display: flex;
-    padding-top: 15px;
+    padding-top: 0.9rem;
 }
 .box-contact{
-    width: 65px;
-    height: 68px;
+    width: 4rem;
+    height: 4.2rem;
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 0.3rem;
     margin: .6rem;
     position: relative;
     overflow: hidden;
@@ -105,7 +105,7 @@ html{
     transition: all .4s ease;
 }
 .box-contact:hover{
-    width: 180px;
+    width: 11.2rem;
     background: lightgrey;
     border-radius: 35px;
     color: white;
@@ -121,14 +121,14 @@ html{
 }
 .box-contact .icon-download, .icon-linkedin, .icon-github{
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.1rem;
+    height: 3.1rem;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 0.6rem;
     transition: all .4s ease;
 }
 ion-icon{
@@ -167,16 +167,16 @@ ion-icon{
 }
 .scroll-up-btn{
     position: fixed;
-    width: 41px;
-    height: 45px;
-    right: 30px;
-    bottom: 10px;
+    width: 2.5rem;
+    height: 2.8rem;
+    right: 1.8rem;
+    bottom: 0.6rem;
     text-align: center;
-    line-height: 50px;
+    line-height: 3.1rem;
     color: navy;
     background: white;
     border-radius: 6px;
-    font-size: 30px;
+    font-size: 1.8rem;
     z-index: 9999;
     cursor: pointer;
     opacity: 0;
@@ -189,11 +189,11 @@ ion-icon{
 .scroll-up-btn.show{
     opacity: 1;
     pointer-events: auto;
-    bottom: 30px;
+    bottom: 1.8rem;
 }
 
 section{
-    padding: 100px 0;
+    padding: 6.2rem 0;
 }
 .about, .skills{
     font-family: 'Roboto', sans-serif;
@@ -211,10 +211,10 @@ section{
 section .title{
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
-    margin-bottom: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 3.7rem;
+    padding-bottom: 1.2rem;
     position: relative;
 }
 section .title::before{
@@ -222,19 +222,19 @@ section .title::before{
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 180px;
-    height: 3px;
+    width: 11.2rem;
+    height: 0.1rem;
     background: black;
     transform: translateX(-50%);
 }
 section .title::after{
     position: absolute;
-    bottom: -12px;
+    bottom: -0.7rem;
     left: 50%;
-    font-size: 20px;
+    font-size: 1.2rem;
     background: #D5D0C8;
     color: #638B08;
-    padding: 5px;
+    padding: 0.3rem;
     transform: translateX(-50%);
 }
 .about .title::after{
@@ -249,7 +249,7 @@ section .title::after{
 }
 .about .about-content .column-right p{
     text-align: justify;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 .about .about-content .column-left img{
     width: 300px;
@@ -263,7 +263,7 @@ section .title::after{
     color: black;
 }
 .services .serv-content{
-    height: 190px;
+    height: 11.8rem;
     overflow: hidden;
     position: relative;
 }
@@ -292,8 +292,8 @@ section .title::after{
     background: #FAF2E7;
     text-align: center;
     border-radius: 6px;
-    padding: 20px 25px;
-    margin-bottom: 20px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -307,26 +307,26 @@ section .title::after{
     transform: scale(1.05);
 }
 .services .serv-content .card ion-icon{
-    font-size: 50px;
+    font-size: 3.1rem;
     color: black;
 }
 .services .serv-content .card .text{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 0.6rem 0 0.4rem 0;
 }
 .btn-mais{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 .btn-mais #read-more{
-    padding: 10px;
+    padding: 0.6rem;
     border: none;
     cursor: pointer;
     background: transparent;
     color: #FAF2E7;
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
     transition: all .3s ease-in-out;
@@ -340,15 +340,15 @@ section .title::after{
     width: calc(50% - 30px);
 }
 .skills .skills-content .column-left .text{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
 }
 .skills .skills-content .column-left p{
     text-align: justify;
 }
 .skills .skills-content .column-right2{
-    height: 220px;
+    height: 13.7rem;
     overflow: hidden;
     position: relative;
 }
@@ -360,7 +360,7 @@ section .title::after{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 60px;
+    height: 3.7rem;
     background: linear-gradient(transparent, lightgrey);
 }
 .skills .skills-content .column-right2.active::before{
@@ -369,21 +369,21 @@ section .title::after{
 .btn-more{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 .btn-more #skills-more{
-    padding: 10px;
+    padding: 0.6rem;
     border: none;
     cursor: pointer;
     background: transparent;
     color: #A8916C;
-    font-size: 15px;
+    font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
     transition: all .3s ease-in-out;
 }
 .skills .skills-content .column-right .bars{
-    margin-bottom: 15px;
+    margin-bottom: 0.9rem;
 }
 .skills .skills-content .column-right .info{
     display: flex;
@@ -392,7 +392,7 @@ section .title::after{
 }
 .skills .skills-content .column-right span{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.1rem;
 }
 .skills .skills-content .column-right span img{
     width: 70%;
@@ -400,7 +400,7 @@ section .title::after{
 }
 .skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-en, .line-es, .line-ex, .line-mo{
     width: 100%;
-    height: 5px;
+    height: 0.3rem;
     background: white;
     position: relative;
 }
@@ -447,19 +447,19 @@ section .title::after{
 .formacao .carousel .card{
     background: #FAF2E7;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 1.5rem 2.1rem;
     text-align: center;
     transition: all .3s ease;
     cursor: pointer;
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 18.7rem;
+    min-height: 18.7rem;
 }
 .formacao .carousel .card:hover{
     background: white;
 }
 .formacao .carousel .card img{
-    width: 100px;
-    height: 80px;
+    width: 6.2rem;
+    height: 5rem;
     object-fit: cover;
     border-radius: 10%;
     transition: all .3s ease;
@@ -475,24 +475,24 @@ section .title::after{
     transform: scale(1.05);
 }
 .formacao .carousel .card .text{
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 0.6rem 0 0.4rem 0;
 }
 .owl-dots{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1.2rem;
 }
 .owl-dot{
-    width: 14px;
-    height: 14px;
+    width: 0.8rem;
+    height: 0.8rem;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid black!important;
+    border: 0.1rem solid black!important;
     transition: all .3s ease;
 }
 .owl-dot.active{
-    width: 35px;
+    width: 2.1rem;
     border-radius: 15px;
 }
 .owl-dot.active, .owl-dot:hover{
@@ -500,8 +500,8 @@ section .title::after{
 }
 
 footer{
-    font-size: 12px;
-    padding: 10px 15px;
+    font-size: 0.7rem;
+    padding: 0.6rem 0.9rem;
     text-align: center;
     background: #524937;
 }
