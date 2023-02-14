@@ -398,13 +398,13 @@ section .title::after{
     width: 70%;
     height: 70%;
 }
-.skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-en, .line-es, .line-ex, .line-mo{
+.skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-en, .line-es, .line-ex, .line-mo, .line-jv{
     width: 100%;
     height: 0.3rem;
     background: white;
     position: relative;
 }
-.skills .skills-content .column-right .line-html::before, .line-css::before, .line-js::before, .line-py::before, .line-en::before, .line-es::before, .line-ex::before, .line-mo::before{
+.skills .skills-content .column-right .line-html::before, .line-css::before, .line-js::before, .line-py::before, .line-en::before, .line-es::before, .line-ex::before, .line-mo::before, .line-jv::before{
     content: "";
     position: absolute;
     height: 100%;
@@ -442,6 +442,10 @@ section .title::after{
 .skills .skills-content .column-right .line-mo::before{
     width: 30%;
     background: darkorange;
+}
+.skills .skills-content .column-right .line-jv::before{
+    width: 5%;
+    background: linear-gradient(red, blue);
 }
 
 .formacao .carousel .card{
