@@ -31,7 +31,10 @@ html{
     margin: 0.3rem 0;
 }
 .home .home-content .text-3 span{
-    color: #B0E508;
+    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 500;
 }
 .navbar-contact{
@@ -40,10 +43,11 @@ html{
 }
 .box-contact{
     width: 4rem;
-    height: 4.2rem;
+    height: 4rem;
+    border-radius: 30%;
     display: flex;
     align-items: center;
-    padding: 0.3rem;
+    justify-content: center;
     margin: .6rem;
     position: relative;
     overflow: hidden;
@@ -51,7 +55,6 @@ html{
     transition: all .4s ease;
 }
 .box-contact:hover{
-    width: 11.2rem;
     background: lightgrey;
     border-radius: 35px;
     color: white;
@@ -67,14 +70,13 @@ html{
 }
 .box-contact .icon-download, .icon-linkedin, .icon-github{
     color: black;
-    width: 3.1rem;
-    height: 3.1rem;
+    width: 3.5rem;
+    height: 3.5rem;
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    margin-right: 0.6rem;
     transition: all .4s ease;
 }
 ion-icon{
@@ -119,9 +121,7 @@ ion-icon{
     bottom: 0.6rem;
     text-align: center;
     line-height: 3.1rem;
-    color: navy;
-    background: white;
-    border-radius: 6px;
+    border-radius: 40%;
     font-size: 1.8rem;
     z-index: 9999;
     cursor: pointer;
@@ -130,7 +130,8 @@ ion-icon{
     transition: all .3s ease;
 }
 .scroll-up-btn ion-icon{
-    color: #B0E508;
+    color: black;
+    
 }
 .scroll-up-btn.show{
     opacity: 1;
