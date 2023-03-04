@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.services, .formacao{
+    background:#A8916C;
+    color: black;
+}
+.services .serv-content{
+    height: 11.8rem;
+    overflow: hidden;
+    position: relative;
+}
+.services .serv-content.active{
+    height: auto;
+}
+.services .serv-content::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #A8916C);
+}
+.services .serv-content.active::before{
+    visibility: hidden;
+}
+.services .title::before, .formacao .title::before{
+    background: black;
+}
+.services .title::after, .formacao .title::after{
+    color: black;
+}
+.services .serv-content .card{
+    width: calc(33% - 20px);
+    background: #FAF2E7;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.services .serv-content .card:hover{
+    background: white;
+}
+.services .serv-content .card .box{
+    transition: all .3s ease;
+}
+.services .serv-content .card:hover .box{
+    transform: scale(1.05);
+}
+.services .serv-content .card ion-icon{
+    font-size: 3.1rem;
+    color: black;
+}
+.services .serv-content .card .text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.4rem 0;
+}
+.btn-mais{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+.btn-mais #read-more{
+    padding: 0.6rem;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    color: #FAF2E7;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
