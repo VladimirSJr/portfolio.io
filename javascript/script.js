@@ -9,7 +9,7 @@ $(document).ready(function(){
         }else{
             $('.scroll-up-btn').removeClass("show");   
         }
-    });
+    })
     $('.scroll-up-btn').click(function(){
         $('html').animate({scrollTop:0})
     })    
