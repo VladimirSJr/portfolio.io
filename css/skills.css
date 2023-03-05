@@ -9,20 +9,32 @@ html{
     scroll-behavior: smooth;
 }
 
-.skills .title::after{
-    content: "O que faço";
-    background: #D5D0C8;
-}
 .skills .skills-content .column-left, .skills .skills-content .column-right{
     width: calc(50% - 30px);
 }
 .skills .skills-content .column-left .text{
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 0.6rem;
+    background: #fff;
 }
 .skills .skills-content .column-left p{
     text-align: justify;
+    background: #fff;
+}
+.skills .skills-content .column-left{
+    position: relative;
+    border-radius: 6px;
+}
+.skills .skills-content .column-left::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    right: -2px;
+    left: -2px;
+    border-radius: 6px;
+    background: linear-gradient(235deg,#9708cc, #fff, #43cbff);
+    z-index: -1;
 }
 .skills .skills-content .column-right2{
     height: 13.7rem;
@@ -38,7 +50,7 @@ html{
     bottom: 0;
     width: 100%;
     height: 3.7rem;
-    background: linear-gradient(transparent, lightgrey);
+    background: linear-gradient(transparent, #fff);
 }
 .skills .skills-content .column-right2.active::before{
     visibility: hidden;
@@ -52,8 +64,10 @@ html{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    background: transparent;
-    color: #A8916C;
+    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;

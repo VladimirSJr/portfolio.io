@@ -9,18 +9,36 @@ html{
     scroll-behavior: smooth;
 }
 
+.formacao .carousel{
+    box-shadow: 0px 4px 16px rgba(67, 203, 255, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 1rem;
+}
 .formacao .carousel .card{
-    background: #FAF2E7;
-    border-radius: 6px;
+    background: #fff;
+    border-radius: 5%;
     padding: 1.5rem 2.1rem;
     text-align: center;
     transition: all .3s ease;
     cursor: pointer;
-    min-width: 18.7rem;
-    min-height: 18.7rem;
+    min-width: 15rem;
+    min-height: 18rem;
+    position: relative;
+}
+.formacao .carousel .card::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    bottom: -2px;
+    right: -2px;
+    left: -2px;
+    border-radius: 6px;
+    background: linear-gradient(235deg,#9708cc, #fff, #43cbff);
+    z-index: -1;
 }
 .formacao .carousel .card:hover{
-    background: white;
+    box-shadow: 0px 4px 30px rgba(67, 203, 255, 0.5);
+    
 }
 .formacao .carousel .card img{
     width: 6.2rem;

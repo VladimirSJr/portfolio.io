@@ -10,13 +10,13 @@ html{
 }
 
 .services, .formacao{
-    background:#A8916C;
     color: black;
 }
 .services .serv-content{
     height: 11.8rem;
     overflow: hidden;
     position: relative;
+    padding: 1rem;
 }
 .services .serv-content.active{
     height: auto;
@@ -27,26 +27,31 @@ html{
     bottom: 0;
     width: 100%;
     height: 100px;
-    background: linear-gradient(transparent, #A8916C);
+    background: linear-gradient(transparent, #fff);
+    z-index: 1;
 }
-.services .serv-content.active::before{
-    visibility: hidden;
-}
-.services .title::before, .formacao .title::before{
-    background: black;
-}
-.services .title::after, .formacao .title::after{
-    color: black;
-}
+
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #FAF2E7;
+    background: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 1.2rem 1.5rem;
     margin-bottom: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
+    position: relative;
+}
+.services .serv-content .card::after{
+    content: '';
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    right: -2px;
+    left: -2px;
+    border-radius: 6px;
+    background: linear-gradient(235deg,#9708cc, #fff, #43cbff);
+    z-index: -1;
 }
 .services .serv-content .card:hover{
     background: white;
@@ -59,12 +64,16 @@ html{
 }
 .services .serv-content .card ion-icon{
     font-size: 3.1rem;
-    color: black;
+    color: #43cbff;
 }
 .services .serv-content .card .text{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
+    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .btn-mais{
     display: flex;
@@ -75,8 +84,10 @@ html{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    background: transparent;
-    color: #FAF2E7;
+    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;
