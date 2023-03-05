@@ -58,9 +58,11 @@ html{
 }
 .navbar #menu li a:hover{
     padding: .1rem 0 ;
-    border-bottom: solid 0.1rem currentColor;
+    border-bottom: solid 0.15rem #43cbff;
+    border-radius: 10%;
 }
 .navbar.sticky #menu li a:hover{
     padding: .1rem 0 ;
-    border-bottom: solid 0.1rem currentColor;
+    border-bottom: solid 0.15rem #43cbff;
+    border-radius: 10%;
 }
