@@ -15,17 +15,17 @@ html{
 .skills .skills-content .column-left .text{
     font-size: 1.5rem;
     font-weight: 500;
-    background: #fff;
 }
 .skills .skills-content .column-left p{
     text-align: justify;
-    background: #fff;
 }
-.skills .skills-content .column-left{
+.skills .skills-content{
     position: relative;
     border-radius: 6px;
+    background: #fff;
+    padding: 1rem;
 }
-.skills .skills-content .column-left::after{
+.skills .skills-content::after{
     content: '';
     position: absolute;
     top: -2px;
@@ -35,6 +35,7 @@ html{
     border-radius: 6px;
     background: linear-gradient(235deg,#9708cc, #fff, #43cbff);
     z-index: -1;
+    filter: blur(10px);
 }
 .skills .skills-content .column-right2{
     height: 13.7rem;
