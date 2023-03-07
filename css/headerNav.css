@@ -21,9 +21,10 @@ html{
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
     z-index: 999;
+    background-color: #12043e;
 }
 .navbar.sticky{
-    background: #ffff;
+    background-color: #12043e;
     padding: 0.9rem 0;
 }
 .navbar .max-width{
@@ -32,7 +33,7 @@ html{
     justify-content: space-between;
 }
 .navbar .logo a{
-    color: black;
+    color: #fff;
     font-size: 2.1rem;
     font-weight: 500;
 }
