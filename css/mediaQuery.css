@@ -149,7 +149,7 @@
         width: 100%;
     }
     .skills .skills-content .column-left, .skills .skills-content .column-right{
-        width: 100%;
+        min-width: 100%;
         margin-bottom: 1.5rem;
     }
 }

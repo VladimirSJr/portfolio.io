@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
 .skills .skills-content .column-left, .skills .skills-content .column-right{
-    min-width: calc(50% - 30px);
+    width: calc(50% - 30px);
 }
 .skills .skills-content .column-left .text{
     font-size: 1.5rem;
     font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding-bottom: .5rem;
 }
 .skills .skills-content .column-left p{
     text-align: justify;
-}
-.skills .skills-content{
-    border-radius: 6px;
-    padding: 1rem;
 }
 
 .skills .skills-content .column-right2{
