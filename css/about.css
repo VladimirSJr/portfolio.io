@@ -22,7 +22,7 @@ section .title{
     font-weight: 500;
     margin-bottom: 3.7rem;
     padding-bottom: 1.2rem;
-    background: -webkit-linear-gradient(left, #9708cc, rgb(67, 203, 255));
+    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -33,7 +33,6 @@ section .title{
     width: 100%;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
     flex-direction: column;
 }
 .about .about-content .column-right{

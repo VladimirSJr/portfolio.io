@@ -4,7 +4,6 @@
 .services .serv-content{
     height: 11.8rem;
     overflow: hidden;
-    position: relative;
     padding: 1rem;
     border-radius: 6px;
     box-shadow: 0px 4px 30px rgba(67, 203, 255, 0.5);
@@ -18,11 +17,9 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background: linear-gradient(transparent, #12043e);
 }
-
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    min-width: calc(33% - 20px);
     background-color: #12043e75;
     text-align: center;
     border-radius: 6px;

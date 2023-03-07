@@ -1,5 +1,5 @@
 .skills .skills-content .column-left, .skills .skills-content .column-right{
-    width: calc(50% - 30px);
+    min-width: calc(50% - 30px);
 }
 .skills .skills-content .column-left .text{
     font-size: 1.5rem;
