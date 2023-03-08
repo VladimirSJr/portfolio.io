@@ -24,6 +24,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 section .title{
     font-family: 'Ubuntu', sans-serif;
@@ -47,6 +48,7 @@ section .title{
 .about .about-content .column-right p{
     text-align: center;
     font-size: 1.5rem;
+    padding: 2rem;
 }
 .about .about-content .column-left img{
     width: 200px;
@@ -55,4 +57,42 @@ section .title{
     border-radius: 50%;;
     box-shadow: 0px 4px 30px rgba(67, 203, 255, 0.5);
     background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width:910px){
+    .about .about-content .column-left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 3.7rem;
+        width: 50%;
+    }
+    .about .about-content .column-right{
+        flex: 100%;
+        width: 50%;
+    }
+    .about .about-content .column-right p{
+        font-size: 1.2rem;
+    }
+    .about .about-content .column-left img{
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width:779px){
+    .about .about-content .column-right{
+        padding: 0;
+    }
+    .about .about-content .column-right p{
+        text-align: center;
+        font-size: 1rem;
+        padding: 0;
+    }
+}
+
+@media (max-width:486px){
+    .about .about-content .column-left img{
+        width: 200px;
+        height: 200px;
+    }   
 }

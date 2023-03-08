@@ -14,6 +14,7 @@ html{
     min-height: 31.2rem;
     font-family: 'Ubuntu', sans-serif;
     background-color: #12043e;
+    width: 100%;
 }
 .home .max-width{
     margin: auto 0 auto 2.5rem;
@@ -134,4 +135,118 @@ ion-icon{
     opacity: 1;
     pointer-events: auto;
     bottom: 2rem;
+}
+
+@media (max-width:1220px){
+    .home .home-content .text-1{
+        font-size: 1.8rem;
+    }
+    .home .home-content .text-2{
+        font-size: 3.7rem;
+    }
+    .home .home-content .text-3{
+        font-size: 2.1rem;
+    }
+}
+@media (max-width:1100px){
+    .home .home-content .text-3{
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width:963px){
+    .home .home-content .text-2{
+        font-size: 3.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:910px){
+    .home .home-content a{
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width:834px){
+    .home .home-content .text-3{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:779px){
+    .home .home-content .text-1{
+        font-size: 1.5rem;
+    }
+    .home .home-content .text-2{
+        font-size: 3rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:674px){
+    .home .home-content .text-1{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 2rem;
+        margin-left: -1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+}
+
+@media (max-width:590px){
+    .home .home-content .text-1{
+        font-size: 1.1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.1rem;
+    }
+    .box-contact{
+        width: 3.8rem;
+        height: 4rem;
+        padding: 0.2rem;
+        margin: .5rem;
+    }
+    .box-contact:hover{
+        width: 10rem;
+    }
+    .box-contact p{
+        font-size: .8rem;
+    }
+    ion-icon{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width:486px){
+    .navbar-contact{
+        flex-direction: column;
+    }
+}
+
+@media (max-width:410px){
+    .home .home-content .text-1{
+        font-size: 1.2rem;
+        margin-left: -1rem;
+    }
+    .home .home-content .text-2{
+        font-size: 2rem;
+        margin-left: -1.5rem;
+    }
+    .home .home-content .text-3{
+        font-size: 1.1rem;
+        margin-left: -1rem;
+    }
 }

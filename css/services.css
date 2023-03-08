@@ -78,3 +78,16 @@ html{
     border-radius: 5px;
     transition: all .3s ease-in-out;
 }
+
+@media (max-width:910px){
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 1.2rem;
+    }
+}
+
+@media (max-width:700px){
+    .services .serv-content .card{
+        width: 100%;
+    }
+}

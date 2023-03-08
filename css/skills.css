@@ -122,3 +122,10 @@ html{
     width: 5%;
     background: linear-gradient(red, blue);
 }
+
+@media (max-width:700px){
+    .skills .skills-content .column-left, .skills .skills-content .column-right{
+        min-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
