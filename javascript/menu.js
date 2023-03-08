@@ -9,3 +9,13 @@ function toggleMenu(event){
 };
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+const menu = document.getElementById('menu');
+function toggleLink(event){
+    if(event.type === 'touchstart'){event.Default()};
+    const link = document.getElementById('link');
+    link.classList.toggle('close');
+    if(link.classList.contains('close')){nav.classList.remove('active')};
+}
+menu.addEventListener('click', toggleMenu);
+menu.addEventListener('touchstart', toggleMenu);
