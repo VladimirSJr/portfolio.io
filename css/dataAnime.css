@@ -3,16 +3,16 @@
     transition: .3s;
 }
 [data-anime="top"]{
-    transform: translate3d(0, -50px, 0);
+    transform: translate3d(0, -25px, 0);
 }
 [data-anime="bottom"]{
-    transform: translate3d(0, 50px, 0);
+    transform: translate3d(0, 25px, 0);
 }
 [data-anime="left"]{
-    transform: translate3d(-50px, 0, 0);
+    transform: translate3d(-25px, 0, 0);
 }
 [data-anime="right"]{
-    transform: translate3d(50px, 0, 0);
+    transform: translate3d(25px, 0, 0);
 }
 [data-anime].animate{
     opacity: 1;
