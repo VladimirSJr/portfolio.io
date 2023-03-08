@@ -68,3 +68,18 @@ html{
 .owl-dot.active, .owl-dot:hover{
     background: #12043e75!important;
 }
+
+@media (max-width:375px){
+    .formacao .carousel .card .text{
+        font-size: 1rem;
+    }
+    .formacao .carousel .card{
+        min-width: 12rem;
+        min-height: 18rem;
+        padding: 1.3rem 1.9rem;
+    }
+    .formacao .carousel .card img{
+        width: 5rem;
+        height: 3rem;
+    }
+}

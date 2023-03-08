@@ -129,3 +129,23 @@ html{
         margin-bottom: 1.5rem;
     }
 }
+
+@media (max-width:450px){
+    .skills .skills-content .column-left .text{
+        font-size: 1.2rem;
+    }
+    .skills .skills-content .column-left p{
+        font-size: 1rem;
+    }
+    .skills .skills-content .column-right span{
+        font-size: 1rem;
+    }
+    .skills .skills-content .column-right span img{
+        width: 50%;
+        height: 50%;
+    }
+    .skills .skills-content .column-right .line-html, .line-css, .line-js, .line-py, .line-en, .line-es, .line-ex, .line-mo, .line-jv{
+        height: 0.2rem;
+    }
+
+}

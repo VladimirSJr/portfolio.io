@@ -77,7 +77,7 @@ html{
     }
 }
 
-@media (max-width:410px){
+@media (max-width:600px){
     #nav-menu #menu li a{
         font-size: 1.1rem;
         margin-left: 0;

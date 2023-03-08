@@ -48,7 +48,7 @@ section .title{
 .about .about-content .column-right p{
     text-align: center;
     font-size: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 .about .about-content .column-left img{
     width: 200px;
@@ -60,22 +60,12 @@ section .title{
 }
 
 @media (max-width:910px){
-    .about .about-content .column-left{
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 3.7rem;
-        width: 50%;
-    }
-    .about .about-content .column-right{
-        flex: 100%;
-        width: 50%;
-    }
     .about .about-content .column-right p{
         font-size: 1.2rem;
     }
     .about .about-content .column-left img{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 }
 
@@ -84,15 +74,12 @@ section .title{
         padding: 0;
     }
     .about .about-content .column-right p{
-        text-align: center;
         font-size: 1rem;
-        padding: 0;
     }
 }
 
-@media (max-width:486px){
-    .about .about-content .column-left img{
-        width: 200px;
-        height: 200px;
-    }   
+@media (max-width:450px){
+    section .title{
+        font-size: 2rem;
+    }
 }

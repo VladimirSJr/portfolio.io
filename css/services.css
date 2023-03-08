@@ -91,3 +91,9 @@ html{
         width: 100%;
     }
 }
+
+@media (max-width:400px){
+    .services .serv-content .card .text{
+        font-size: 1.2rem;
+    }
+}
