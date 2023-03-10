@@ -48,10 +48,8 @@ html{
     padding: 0.6rem;
     border: none;
     cursor: pointer;
-    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a9081c;
+    background-color: transparent;
     font-size: 0.9rem;
     font-weight: bold;
     border-radius: 5px;

@@ -13,7 +13,7 @@ html{
     height: 100vh;
     min-height: 31.2rem;
     font-family: 'Ubuntu', sans-serif;
-    background-color: #12043e;
+    background-color: #111a21;
     width: 100%;
 }
 .home .max-width{
@@ -21,21 +21,21 @@ html{
 }
 .home .home-content .text-1{
     font-size: 1.6rem;
+    color: #716b6d;
 }
 .home .home-content .text-2{
     font-size: 4.6rem;
     font-weight: 500;
     margin-left: -1.1rem;
+    color: #716b6d;
 }
 .home .home-content .text-3{
     font-size: 2.5rem;
     margin: 0.3rem 0;
+    color: #716b6d;
 }
 .home .home-content .text-3 span{
-    background: -webkit-linear-gradient(left, #9708cc, #43cbff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #a9081c;
     font-weight: 500;
 }
 .navbar-contact{
@@ -55,7 +55,7 @@ html{
 ion-icon{
     width: 25px;
     height: 25px;
-    color: #fff;
+    color: #716b6d;
 }
 #menu-btn{
     display: none;
@@ -77,8 +77,8 @@ ion-icon{
     transition: all .3s ease;
 }
 .scroll-up-btn ion-icon{
-    color: #43cbff;
-    background-color: #000080; 
+    color: #716b6d;
+    background-color: #a9081b9c; 
     width: 100%;
     height: 100%;
     border-radius: 40%;

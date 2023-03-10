@@ -9,13 +9,12 @@ html{
     scroll-behavior: smooth;
 }
 .formacao .carousel{
-    box-shadow: 0px 4px 30px rgba(67, 203, 255, 0.5);
     background: rgba(255, 255, 255, 0.2);
     padding: 1rem;
     border-radius: 1%;
 }
 .formacao .carousel .card{
-    background: #12043e75;
+    background: #a9081b9c;
     border-radius: 5%;
     padding: 1.5rem 2.1rem;
     text-align: center;
@@ -25,7 +24,7 @@ html{
     min-height: 18rem;
 }
 .formacao .carousel .card:hover{
-    background-color: #12043ea2;
+    background-color: #a9081c;
 }
 .formacao .carousel .card img{
     width: 6.2rem;
@@ -66,7 +65,7 @@ html{
     border-radius: 15px;
 }
 .owl-dot.active, .owl-dot:hover{
-    background: #12043e75!important;
+    background: #a9081c!important;
 }
 
 @media (max-width:375px){
