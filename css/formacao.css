@@ -47,6 +47,10 @@ html{
     font-size: 1.5rem;
     font-weight: 500;
     margin: 0.6rem 0 0.4rem 0;
+    color: #111a21;
+}
+.formacao .carousel .card p{
+    color: #111a21;
 }
 .owl-dots{
     text-align: center;
